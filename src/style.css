@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: url('./assets/images/Black_Jack_Table.jpg');
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+}
+
+.gamearea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bx{
+    width: fit-content;
+    height: 28vh;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.card{
+    height: 28vh;
+    width: auto;
+}
+
+.gamecontrol{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    color: white;
+    padding: 2%;
+    width: 20vw;
+}
+
+.gamebuttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 10px;  
+    border-radius: 10px;
+    border: rgba(95, 95, 95, 0.514) 1px solid;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.39);
+    border: rgba(95, 95, 95, 0.212) 1px solid;
+}

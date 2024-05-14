@@ -1,0 +1,26 @@
+{
+  "name": "black-jack-game",
+  "version": "1.0.0",
+  "description": "Tech\r -Webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "gh-pages": "^6.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "watch": "^1.0.2"
+  }
+}
